@@ -13,12 +13,12 @@
         <!--Group-->
         <scene sceneID="ASn-ue-NuO">
             <objects>
-                <viewController id="i4e-e4-FqZ" customClass="GroupViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="i4e-e4-FqZ" customClass="GroupViewController" customModule="HistUI_Example" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5jG-it-e2N">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wa1-qf-6YE" customClass="CardGroupSliding" customModule="Cards">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wa1-qf-6YE" customClass="CardGroupSliding" customModule="HistUI">
                                 <rect key="frame" x="67" y="32" width="240" height="291"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -30,7 +30,7 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="Icon"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uft-Tc-hPE" customClass="CardGroup" customModule="Cards">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uft-Tc-hPE" customClass="CardGroup" customModule="HistUI">
                                 <rect key="frame" x="100" y="373" width="175" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -60,12 +60,12 @@
         <!--Article-->
         <scene sceneID="2ac-Fb-vbR">
             <objects>
-                <viewController id="k06-gf-ALo" customClass="ArticleViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="k06-gf-ALo" customClass="ArticleViewController" customModule="HistUI_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iMc-2y-m37">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MPq-Jv-zdb" customClass="CardArticle" customModule="Cards">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MPq-Jv-zdb" customClass="CardArticle" customModule="HistUI">
                                 <rect key="frame" x="67" y="188" width="240" height="291"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -94,12 +94,12 @@
         <!--Player-->
         <scene sceneID="AiI-ce-cnY">
             <objects>
-                <viewController id="LjN-1V-n2c" customClass="PlayerViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LjN-1V-n2c" customClass="PlayerViewController" customModule="HistUI_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lMa-H4-g6c">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pRe-yW-fBP" customClass="CardPlayer" customModule="Cards">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pRe-yW-fBP" customClass="CardPlayer" customModule="HistUI">
                                 <rect key="frame" x="67" y="188" width="240" height="291"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -127,12 +127,12 @@
         <!--Highlight-->
         <scene sceneID="1Z8-B8-lpt">
             <objects>
-                <viewController id="R2f-57-GXv" customClass="HighlightViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="R2f-57-GXv" customClass="HighlightViewController" customModule="HistUI_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3tT-js-yj4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gON-Ab-tsu" customClass="CardHighlight" customModule="Cards">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gON-Ab-tsu" customClass="CardHighlight" customModule="HistUI">
                                 <rect key="frame" x="16" y="367" width="288" height="228"/>
                                 <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -149,7 +149,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="buttonText" value="Tap to open"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uhT-Cy-Kvg" customClass="CardHighlight" customModule="Cards">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uhT-Cy-Kvg" customClass="CardHighlight" customModule="HistUI">
                                 <rect key="frame" x="40" y="44" width="240" height="288"/>
                                 <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -187,7 +187,7 @@
         <!--List-->
         <scene sceneID="nR5-Qs-sg9">
             <objects>
-                <tableViewController title="List" id="IUb-Gj-k2N" customClass="ListTableViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="List" id="IUb-Gj-k2N" customClass="ListTableViewController" customModule="HistUI_Example" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nQX-JS-cSD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -200,7 +200,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="427"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view tag="1000" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nze-Yw-u7c" customClass="CardArticle" customModule="Cards">
+                                        <view tag="1000" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nze-Yw-u7c" customClass="CardArticle" customModule="HistUI">
                                             <rect key="frame" x="40" y="21" width="240" height="320"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
@@ -259,7 +259,7 @@
         <!--Card Content View Controller-->
         <scene sceneID="Pec-lw-cdD">
             <objects>
-                <viewController storyboardIdentifier="CardContent" useStoryboardIdentifierAsRestorationIdentifier="YES" id="E9y-vp-odE" customClass="CardContentViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CardContent" useStoryboardIdentifierAsRestorationIdentifier="YES" id="E9y-vp-odE" customClass="CardContentViewController" customModule="HistUI_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="tif-Mz-Tb0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import HistUI
+import Cards
 
 class ListTableViewController: UITableViewController {
 

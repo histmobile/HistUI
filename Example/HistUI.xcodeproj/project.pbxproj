@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7931390C2348C41D00F6D9D8 /* ViewControllers in Resources */ = {isa = PBXBuildFile; fileRef = 7931390B2348C41D00F6D9D8 /* ViewControllers */; };
 		7931390E2348C45700F6D9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7931390D2348C45700F6D9D8 /* Assets.xcassets */; };
 		793139162348C58900F6D9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793139142348C58900F6D9D8 /* Main.storyboard */; };
 		793139172348C58900F6D9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793139152348C58900F6D9D8 /* LaunchScreen.storyboard */; };
+		7931393A2348D56D00F6D9D8 /* CardContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793139342348D56D00F6D9D8 /* CardContentViewController.swift */; };
+		7931393B2348D56D00F6D9D8 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793139352348D56D00F6D9D8 /* PlayerViewController.swift */; };
+		7931393C2348D56D00F6D9D8 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793139362348D56D00F6D9D8 /* ArticleViewController.swift */; };
+		7931393D2348D56D00F6D9D8 /* HighlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793139372348D56D00F6D9D8 /* HighlightViewController.swift */; };
+		7931393E2348D56D00F6D9D8 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793139382348D56D00F6D9D8 /* GroupViewController.swift */; };
+		7931393F2348D56D00F6D9D8 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793139392348D56D00F6D9D8 /* ListTableViewController.swift */; };
 		9155F528CADCF2A1B81C37B1 /* Pods_HistUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13288952A41504E84A41AB70 /* Pods_HistUI_Tests.framework */; };
 		A0023401E86107B7D6CE198D /* Pods_HistUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DADDDE44A7010FA43C7A1B /* Pods_HistUI_Example.framework */; };
 /* End PBXBuildFile section */
@@ -36,15 +40,19 @@
 		607FACD01AFB9204008FA782 /* HistUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HistUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* HistUI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistUI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7836ABF0B3D646EA12A1EABC /* HistUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HistUI.podspec; path = ../HistUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7931390B2348C41D00F6D9D8 /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewControllers; sourceTree = "<group>"; };
 		7931390D2348C45700F6D9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		793139142348C58900F6D9D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		793139152348C58900F6D9D8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		793139342348D56D00F6D9D8 /* CardContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardContentViewController.swift; sourceTree = "<group>"; };
+		793139352348D56D00F6D9D8 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		793139362348D56D00F6D9D8 /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		793139372348D56D00F6D9D8 /* HighlightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightViewController.swift; sourceTree = "<group>"; };
+		793139382348D56D00F6D9D8 /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		793139392348D56D00F6D9D8 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		7C18E4ADA042EA35B2C731AF /* Pods-HistUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistUI_Example.release.xcconfig"; path = "Target Support Files/Pods-HistUI_Example/Pods-HistUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C2B063F9BA83C6D25C48C233 /* Pods-HistUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HistUI_Tests/Pods-HistUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB40A328E49FCCF01D24DFB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -106,9 +114,8 @@
 		607FACD21AFB9204008FA782 /* Example for HistUI */ = {
 			isa = PBXGroup;
 			children = (
-				7931390B2348C41D00F6D9D8 /* ViewControllers */,
+				793139332348D56D00F6D9D8 /* ViewControllers */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				793139152348C58900F6D9D8 /* LaunchScreen.storyboard */,
 				793139142348C58900F6D9D8 /* Main.storyboard */,
 				7931390D2348C45700F6D9D8 /* Assets.xcassets */,
@@ -151,6 +158,19 @@
 				CB40A328E49FCCF01D24DFB7 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		793139332348D56D00F6D9D8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				793139342348D56D00F6D9D8 /* CardContentViewController.swift */,
+				793139352348D56D00F6D9D8 /* PlayerViewController.swift */,
+				793139362348D56D00F6D9D8 /* ArticleViewController.swift */,
+				793139372348D56D00F6D9D8 /* HighlightViewController.swift */,
+				793139382348D56D00F6D9D8 /* GroupViewController.swift */,
+				793139392348D56D00F6D9D8 /* ListTableViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		DE572198849306FBB3AE788E /* Frameworks */ = {
@@ -222,6 +242,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8J3LQT7LJN;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -254,7 +275,6 @@
 			files = (
 				793139162348C58900F6D9D8 /* Main.storyboard in Resources */,
 				793139172348C58900F6D9D8 /* LaunchScreen.storyboard in Resources */,
-				7931390C2348C41D00F6D9D8 /* ViewControllers in Resources */,
 				7931390E2348C45700F6D9D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,10 +319,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HistUI_Example/Pods-HistUI_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HistUI/HistUI.framework",
+				"${BUILT_PRODUCTS_DIR}/Player/Player.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HistUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Player.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -362,8 +384,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				7931393E2348D56D00F6D9D8 /* GroupViewController.swift in Sources */,
+				7931393A2348D56D00F6D9D8 /* CardContentViewController.swift in Sources */,
+				7931393C2348D56D00F6D9D8 /* ArticleViewController.swift in Sources */,
+				7931393D2348D56D00F6D9D8 /* HighlightViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				7931393B2348D56D00F6D9D8 /* PlayerViewController.swift in Sources */,
+				7931393F2348D56D00F6D9D8 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2B063F9BA83C6D25C48C233 /* Pods-HistUI_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8J3LQT7LJN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -549,6 +577,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C365DE8DB5C3F3D944F9CC8 /* Pods-HistUI_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8J3LQT7LJN;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
