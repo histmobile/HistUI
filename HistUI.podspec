@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HistUI'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of HistUI.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/histdev/HistUI'
+  s.homepage         = 'https://github.com/histmobile/HistUI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'histdev' => 'jkoh@hist.co.kr' }
-  s.source           = { :git => 'https://github.com/histdev/HistUI.git', :tag => s.version.to_s }
+  s.license          = { :type => 'BSD', :file => 'LICENSE' }
+  s.author           = { 'Charles Koh' => 'jkoh@hist.co.kr' }
+  s.source           = { :git => 'https://github.com/histmobile/HistUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HistUI/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'HistUI' => ['HistUI/Assets/*.png']
-  # }
+  s.swift_version = '5.0'
+  #s.resource_bundles = {
+  #  'HistUI' => ['HistUI/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
