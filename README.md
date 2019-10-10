@@ -1,9 +1,9 @@
-# HistUI
+# HistUIKit
 
-[![CI Status](https://img.shields.io/travis/histdev/HistUI.svg?style=flat)](https://travis-ci.org/histdev/HistUI)
-[![Version](https://img.shields.io/cocoapods/v/HistUI.svg?style=flat)](https://cocoapods.org/pods/HistUI)
-[![License](https://img.shields.io/cocoapods/l/HistUI.svg?style=flat)](https://cocoapods.org/pods/HistUI)
-[![Platform](https://img.shields.io/cocoapods/p/HistUI.svg?style=flat)](https://cocoapods.org/pods/HistUI)
+[![CI Status](https://img.shields.io/travis/histdev/HistUIKit.svg?style=flat)](https://travis-ci.org/histdev/HistUIKit)
+[![Version](https://img.shields.io/cocoapods/v/HistUIKit.svg?style=flat)](https://cocoapods.org/pods/HistUIKit)
+[![License](https://img.shields.io/cocoapods/l/HistUIKit.svg?style=flat)](https://cocoapods.org/pods/HistUIKit)
+[![Platform](https://img.shields.io/cocoapods/p/HistUIKit.svg?style=flat)](https://cocoapods.org/pods/HistUIKit)
 
 ## Example
 
@@ -17,7 +17,7 @@ HistUI is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'HistUI'
+pod 'HistUIKit'
 ```
 
 ## Author
