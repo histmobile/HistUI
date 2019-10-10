@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HistUI.xcodeproj">
+      location = "group:/works/maintain/hist/HistUIKit/Example/HistUIKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

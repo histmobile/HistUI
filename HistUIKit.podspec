@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'HistUI'
+  s.name             = 'HistUIKit'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of HistUI.'
+  s.summary          = 'UIKit for HIST'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/histmobile/HistUI'
+  s.homepage         = 'https://github.com/histmobile/HistUIKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'BSD', :file => 'LICENSE' }
   s.author           = { 'Charles Koh' => 'jkoh@hist.co.kr' }
-  s.source           = { :git => 'https://github.com/histmobile/HistUI.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/histmobile/HistUIKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'HistUI/Classes/**/*'
+  s.source_files = 'HistUIKit/Classes/**/*'
   s.swift_version = '5.0'
   #s.resource_bundles = {
-  #  'HistUI' => ['HistUI/Assets/*.png']
+  #  'HistUI' => ['HistUIKit/Assets/*.png']
   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

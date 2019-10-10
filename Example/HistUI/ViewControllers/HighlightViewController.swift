@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import HistUI
+import HistUIKit
 import Foundation
 
 class HighlightViewController: UIViewController {

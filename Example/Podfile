@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'HistUI_Example' do
-  pod 'HistUI', :path => '../'
+target 'HistUIKit_Example' do
+  pod 'HistUIKit', :path => '../'
 
-  target 'HistUI_Tests' do
+  target 'HistUIKit_Tests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.2.0'

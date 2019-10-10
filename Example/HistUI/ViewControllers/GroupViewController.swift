@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import HistUI
+import HistUIKit
 
 class GroupViewController: UIViewController {
     
