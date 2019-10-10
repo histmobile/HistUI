@@ -1,6 +1,0 @@
-framework module HistUI {
-  umbrella header "HistUI-umbrella.h"
-
-  export *
-  module * { export * }
-}

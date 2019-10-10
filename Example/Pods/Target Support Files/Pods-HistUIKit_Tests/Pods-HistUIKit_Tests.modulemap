@@ -1,0 +1,6 @@
+framework module Pods_HistUIKit_Tests {
+  umbrella header "Pods-HistUIKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

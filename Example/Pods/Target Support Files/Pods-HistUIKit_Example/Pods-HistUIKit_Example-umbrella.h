@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_HistUI_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_HistUI_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_HistUIKit_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_HistUIKit_ExampleVersionString[];
 

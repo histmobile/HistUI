@@ -1,0 +1,6 @@
+framework module HistUIKit {
+  umbrella header "HistUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

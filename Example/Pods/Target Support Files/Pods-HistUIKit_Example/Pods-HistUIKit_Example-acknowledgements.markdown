@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## HistUI
+## HistUIKit
 
 Copyright (c) 2019 histdev <jkoh@hist.co.kr>
 

@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - HistUI (0.0.1):
+  - HistUIKit (0.0.2):
     - Player (= 0.13.0)
   - Nimble (7.3.4)
   - Nimble-Snapshots (6.3.0):
@@ -17,13 +17,13 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
-  - HistUI (from `../`)
+  - HistUIKit (from `../`)
   - Nimble (~> 7.0)
   - Nimble-Snapshots (~> 6.3.0)
   - Quick (~> 1.2.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - FBSnapshotTestCase
     - Nimble
     - Nimble-Snapshots
@@ -31,17 +31,17 @@ SPEC REPOS:
     - Quick
 
 EXTERNAL SOURCES:
-  HistUI:
+  HistUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HistUI: 25e59bb4d61784e48c93cc4582139ac6b45ac742
+  HistUIKit: 0562f6871efd6673aec238bcb1da2684f85554b0
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Player: 968d8d07d923bcdd6f7e4091c9e306eb44a5f7a4
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: 1fdfc720c680ffed75d98c2a083b3779fd5052e8
+PODFILE CHECKSUM: d01406edf5975c12ca87eee7c0bb3525c590c1c0
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.3
