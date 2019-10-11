@@ -7,9 +7,9 @@
 //
 
 import UIKit
+import HistUIKit
 
-class CardContentViewController: UIViewController {
-
+class CardContentViewController: UIViewController, CircularCarouselDelegate {
     
     let colors = [
         
@@ -22,6 +22,18 @@ class CardContentViewController: UIViewController {
         UIColor.orange
         
     ]
+    weak var _carousel : CircularCarousel!
+    @IBOutlet weak var carousel: CircularCarousel! {
+        set {
+            _carousel = newValue
+            _carousel.delegate = self
+            _carousel.dataSource = self
+        }
+        
+        get {
+            return _carousel
+        }
+    }
     
     override func viewDidLoad() {
         print("Loaded!")
@@ -33,5 +45,18 @@ class CardContentViewController: UIViewController {
         
         
     }
+   
+}
+
+extension CardContentViewController: CircularCarouselDataSource {
+    func carousel(_: CircularCarousel, viewForItemAt indexPath: IndexPath, reuseView view: UIView?) -> UIView {
+        let label = UILabel()
+        label.text = "Test \(indexPath.row)!~"
+        label.frame = CGRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: 380, height: 380))
+        return label;
+    }
     
+    func numberOfItems(inCarousel carousel: CircularCarousel) -> Int {
+        return 4
+    }
 }

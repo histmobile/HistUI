@@ -153,13 +153,14 @@ extension CircularCarousel {
     }
     
     internal func updateNumberOfVisibleItems() {
-        let spacing: CGFloat = value(forOption: .spacing, withDefaultValue: 1.0)
-        let width: CGFloat = bounds.size.width
-        let itemWidthWithSpacing = itemWidth * spacing
+        let spacing: CGFloat = self.value(forOption: .spacing, withDefaultValue: 1.0)
+        let width: CGFloat = self.bounds.size.width
+        var itemWidthWithSpacing = self.itemWidth * spacing
+        itemWidthWithSpacing = (itemWidthWithSpacing == 0) ? 1 : itemWidthWithSpacing
         
-        numberOfVisibleItems = Int(ceil(width / itemWidthWithSpacing)) + 2
-        numberOfVisibleItems = min(CircularCarouselConstants.maximumVisibleItems, numberOfVisibleItems)
-        numberOfVisibleItems = value(forOption: .visibleItems, withDefaultValue: numberOfVisibleItems)
+        self.numberOfVisibleItems = Int(ceil(width / itemWidthWithSpacing)) + 2
+        self.numberOfVisibleItems = min(CircularCarouselConstants.maximumVisibleItems, self.numberOfVisibleItems)
+        self.numberOfVisibleItems = self.value(forOption: .visibleItems, withDefaultValue: self.numberOfVisibleItems)
     }
     
     internal func layoutItemViews() {

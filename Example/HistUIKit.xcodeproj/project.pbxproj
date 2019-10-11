@@ -19,6 +19,7 @@
 		7931393E2348D56D00F6D9D8 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793139382348D56D00F6D9D8 /* GroupViewController.swift */; };
 		7931393F2348D56D00F6D9D8 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793139392348D56D00F6D9D8 /* ListTableViewController.swift */; };
 		7991F5A0234ECEBE00F83909 /* Pods_HistUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991F59F234ECEBE00F83909 /* Pods_HistUIKit_Example.framework */; };
+		7991F5A2234F1F5C00F83909 /* ExamCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991F5A1234F1F5C00F83909 /* ExamCarouselView.swift */; };
 		B1408C9D5726287423E53267 /* Pods_HistUIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B537BE01DAEE1C4FB9478FB9 /* Pods_HistUIKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		793139382348D56D00F6D9D8 /* GroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 		793139392348D56D00F6D9D8 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		7991F59F234ECEBE00F83909 /* Pods_HistUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_HistUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7991F5A1234F1F5C00F83909 /* ExamCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamCarouselView.swift; sourceTree = "<group>"; };
 		7F761E80E029E090C5EBAD47 /* Pods-HistUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HistUIKit_Tests/Pods-HistUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B537BE01DAEE1C4FB9478FB9 /* Pods_HistUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HistUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB40A328E49FCCF01D24DFB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		793139332348D56D00F6D9D8 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7991F5A1234F1F5C00F83909 /* ExamCarouselView.swift */,
 				793139342348D56D00F6D9D8 /* CardContentViewController.swift */,
 				793139352348D56D00F6D9D8 /* PlayerViewController.swift */,
 				793139362348D56D00F6D9D8 /* ArticleViewController.swift */,
@@ -391,6 +394,7 @@
 				7931393C2348D56D00F6D9D8 /* ArticleViewController.swift in Sources */,
 				7931393D2348D56D00F6D9D8 /* HighlightViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				7991F5A2234F1F5C00F83909 /* ExamCarouselView.swift in Sources */,
 				7931393B2348D56D00F6D9D8 /* PlayerViewController.swift in Sources */,
 				7931393F2348D56D00F6D9D8 /* ListTableViewController.swift in Sources */,
 			);
